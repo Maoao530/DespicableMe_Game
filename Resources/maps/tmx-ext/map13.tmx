@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="14" height="8" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="map" tilewidth="64" tileheight="64">
+  <image source="map.png" width="512" height="512"/>
+ </tileset>
+ <layer name="bg" width="14" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYBxArIqEB8puauunlZ+wmQsAd78CRQ==
+  </data>
+ </layer>
+ <layer name="road" width="14" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAcsGLBxOrDxydFHzH24pLHpZ9Sc/GpJyWc8AEAZSAAbw==
+  </data>
+ </layer>
+ <objectgroup name="object" width="14" height="8">
+  <object name="jam" type="shenshugan" x="64" y="320"/>
+  <object name="jam" type="box" x="128" y="128"/>
+  <object name="jam" type="jiancao" x="256" y="192"/>
+  <object name="jam" type="jiancao" x="256" y="256"/>
+  <object name="jam" type="gu" x="128" y="448"/>
+  <object name="jam" type="gu" x="256" y="384"/>
+  <object name="jam" type="shenshugan" x="320" y="320"/>
+  <object name="jam" type="qianshugan" x="256" y="512"/>
+  <object name="jam" type="qianshugan" x="448" y="512"/>
+  <object name="jam" type="box" x="512" y="320"/>
+  <object name="jam" type="jiancao" x="512" y="192"/>
+  <object name="jam" type="jiancao" x="576" y="192"/>
+  <object name="jam" type="qianshugan" x="640" y="256"/>
+  <object name="jam" type="gu" x="576" y="384"/>
+  <object name="jam" type="jiancao" x="640" y="384"/>
+  <object name="jam" type="gu" x="768" y="256"/>
+  <object name="jam" type="qianshugan" x="768" y="384"/>
+  <object name="points0" type="start" x="96" y="352"/>
+  <object name="points1" type="waypoint" x="224" y="352"/>
+  <object name="points2" type="waypoint" x="224" y="96"/>
+  <object name="points3" type="waypoint" x="480" y="96"/>
+  <object name="points4" type="waypoint" x="480" y="224"/>
+  <object name="points5" type="waypoint" x="608" y="224"/>
+  <object name="points6" type="waypoint" x="608" y="288"/>
+  <object name="points7" type="waypoint" x="736" y="288"/>
+  <object name="points8" type="waypoint" x="736" y="416"/>
+  <object name="points9" type="end" x="608" y="416"/>
+ </objectgroup>
+</map>

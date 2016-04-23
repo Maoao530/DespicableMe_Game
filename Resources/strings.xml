@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">小黄人大作战</string>
+
+    <string name="exit_dialog_title">提醒</string>
+    <string name="exit_dialog_text">你确定退出吗？</string>
+    <string name="exit_dialog_btn_yes">确定</string>
+    <string name="exit_dialog_text_no">返回</string>
+
+	<string name="choose_tip_dialog_title">提醒</string>
+    <string name="choose_tip_dialog_text">此关卡未解锁，必须要先通过前面的关卡哦！</string>
+    <string name="choose_tip_dialog_btn_yes">确定</string>
+  
+
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="14" height="8" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="map" tilewidth="64" tileheight="64">
+  <image source="map.png" width="512" height="512"/>
+ </tileset>
+ <layer name="bg" width="14" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYmBgYBoArIaGaWE+Ld1NK7NJDS8A1q8CkQ==
+  </data>
+ </layer>
+ <layer name="road" width="14" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAfsOHAxOgjVoyNCDWExPCZjc98fH6hRB8pYUUIAACQKACd
+  </data>
+ </layer>
+ <objectgroup name="object" width="14" height="8">
+  <object name="jam" type="yuanxrz" x="0" y="384"/>
+  <object name="jam" type="yuanxrz" x="0" y="192"/>
+  <object name="jam" type="gu" x="128" y="320"/>
+  <object name="jam" type="gu" x="128" y="256"/>
+  <object name="jam" type="box" x="192" y="192"/>
+  <object name="jam" type="shenshu" x="256" y="320"/>
+  <object name="jam" type="qianshu" x="384" y="448"/>
+  <object name="jam" type="gu" x="512" y="512"/>
+  <object name="jam" type="shenshu" x="448" y="256"/>
+  <object name="jam" type="yuanxrz" x="640" y="384"/>
+  <object name="jam" type="yuanxrz" x="768" y="448"/>
+  <object name="jam" type="box" x="640" y="256"/>
+  <object name="jam" type="yuanxrz" x="640" y="192"/>
+  <object name="jam" type="yuanxrz" x="768" y="128"/>
+  <object name="jam" type="qianshu" x="128" y="448"/>
+  <object name="jam" type="qianshu" x="768" y="320"/>
+  <object name="points0" type="start" x="96" y="416"/>
+  <object name="points1" type="waypoint" x="96" y="96"/>
+  <object name="points2" type="waypoint" x="416" y="96"/>
+  <object name="points3" type="waypoint" x="416" y="288"/>
+  <object name="points4" type="waypoint" x="544" y="288"/>
+  <object name="points5" type="waypoint" x="544" y="416"/>
+  <object name="points6" type="waypoint" x="736" y="416"/>
+  <object name="points7" type="waypoint" x="736" y="160"/>
+  <object name="points8" type="end" x="800" y="160"/>
+ </objectgroup>
+</map>
